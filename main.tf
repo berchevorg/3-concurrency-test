@@ -1,6 +1,6 @@
 resource "null_resource" "sleep" {
   provisioner "local-exec" {
-    command = "sleep 242"
+    command = "sleep 245"
   }
   triggers = {
     run_every_time = uuid()
